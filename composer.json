@@ -1,0 +1,32 @@
+{
+    "name": "periloso/evaluator",
+    "description": "Symfony Expression Language for Laravel",
+    "license": "MIT",
+    "keywords": ["laravel", "expression-language", "symfony"],
+    "authors": [
+        {
+            "name": "Alessio Periloso",
+            "email": "mail@periloso.com",
+            "homepage": "https://github.com/periloso"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/expression-language": "~2.6"
+    },
+    "require-dev": {
+            "mockery/mockery": "~0.9",
+            "satooshi/php-coveralls": "~0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Periloso\\Evaluator\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.9-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}

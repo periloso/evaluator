@@ -1,0 +1,6 @@
+# Composer
+/packages/periloso/evaluator/vendors/*
+composer.lock
+
+# Testing
+/build/*
