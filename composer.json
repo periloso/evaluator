@@ -27,6 +27,14 @@
     "extra": {
         "branch-alias": {
             "dev-master": "0.9-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Antonio88\\Evaluator\\EvaluatorServiceProvider"
+            ],
+            "aliases": {
+                "Evaluator": "Antonio88\\Evaluator\\Facades\\Evaluator"
+            }
         }
     },
     "minimum-stability": "dev"
