@@ -3,6 +3,8 @@ Evaluator
 
 [Symfony Expression Language](http://symfony.com/doc/current/components/expression_language/index.html) module for Laravel.
 
+Forked from https://github.com/periloso/evaluator
+
 ## Installation
 
 Simply update the ```composer.json``` file and run ```composer install```.
