@@ -11,6 +11,6 @@ class Evaluator extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'periloso.evaluator';
+        return 'antonio88.evaluator';
     }
 }
