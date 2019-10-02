@@ -1,10 +1,10 @@
-<?php namespace Periloso\Evaluator;
+<?php namespace Antonio88\Evaluator;
 
 use \Closure;
 use Illuminate\Support\Fluent;
 use Illuminate\Support\Str as S;
-use Periloso\Evaluator\Contracts\AdapterInterface;
-use Periloso\Evaluator\Contracts\EvaluatorInterface;
+use Antonio88\Evaluator\Contracts\AdapterInterface;
+use Antonio88\Evaluator\Contracts\EvaluatorInterface;
 use Symfony\Component\ExpressionLanguage\ExpressionLanguage;
 
 class Evaluator implements EvaluatorInterface

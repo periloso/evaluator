@@ -1,7 +1,7 @@
-<?php namespace Periloso\Evaluator\Traits;
+<?php namespace Antonio88\Evaluator\Traits;
 
 use Illuminate\Support\Fluent;
-use Periloso\Evaluator\Exceptions\MissingKeyException;
+use Antonio88\Evaluator\Exceptions\MissingKeyException;
 
 trait ExpressionCheckerTrait
 {

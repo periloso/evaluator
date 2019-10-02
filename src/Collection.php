@@ -1,4 +1,4 @@
-<?php namespace Periloso\Evaluator;
+<?php namespace Antonio88\Evaluator;
 
 use Illuminate\Support\Collection as BaseCollection;
 

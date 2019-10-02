@@ -1,4 +1,4 @@
-<?php namespace Periloso\Evaluator;
+<?php namespace Antonio88\Evaluator;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;

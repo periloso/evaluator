@@ -1,7 +1,7 @@
-<?php namespace Periloso\Evaluator;
+<?php namespace Antonio88\Evaluator;
 
 use Illuminate\Support\Manager;
-use Periloso\Evaluator\Adapter\File;
+use Antonio88\Evaluator\Adapter\File;
 use Symfony\Component\ExpressionLanguage\ExpressionLanguage;
 
 class EvaluatorManager extends Manager

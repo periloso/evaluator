@@ -1,4 +1,4 @@
-<?php namespace Periloso\Evaluator\Contracts;
+<?php namespace Antonio88\Evaluator\Contracts;
 
 use \Closure;
 
