@@ -11,13 +11,13 @@ Simply update the ```composer.json``` file and run ```composer install```.
 
 ```json
 "require": {
-	"periloso/evaluator": "1.0.*"
-}
+	"antonio30111988/evaluator": "1.3.*"
+}  
 ```
 
 ## Quick Installation
 
-```composer require "periloso/evaluator=1.0.*"```
+```composer require "antonio30111988/evaluator=1.3.*"```
 
 
 ## How To Use
