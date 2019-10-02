@@ -22,11 +22,11 @@ class EvaluatorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('periloso.evaluator', function ($app) {
+        $this->app->singleton('antonio88.evaluator', function ($app) {
             return new EvaluatorManager($app);
         });
 
-        $this->app->bind('Periloso\Evaluator\Contracts\AdapterInterface', 'Periloso\Evaluator\Adapter\File');
+        $this->app->bind('Antonio88\Evaluator\Contracts\AdapterInterface', 'Antonio88\Evaluator\Adapter\File');
 
         $this->registerFacade();
     }
@@ -39,6 +39,6 @@ class EvaluatorServiceProvider extends ServiceProvider
     protected function registerFacade()
     {
         $loader = AliasLoader::getInstance();
-        $loader->alias('Evaluator', 'Periloso\Evaluator\Facades\Evaluator');
+        $loader->alias('Evaluator', 'Antonio88\Evaluator\Facades\Evaluator');
     }
 }
